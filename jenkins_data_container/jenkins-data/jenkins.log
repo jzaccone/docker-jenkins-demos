@@ -1,0 +1,46 @@
+Running from: /usr/share/jenkins/jenkins.war
+webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jan 16, 2017 6:18:50 PM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Jan 16, 2017 6:18:51 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: jetty-winstone-2.8
+Jan 16, 2017 6:18:52 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jan 16, 2017 6:18:53 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: Started SelectChannelConnector@0.0.0.0:8080
+Jan 16, 2017 6:18:53 PM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v2.0 running: controlPort=disabled
+Jan 16, 2017 6:18:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 16, 2017 6:19:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 16, 2017 6:19:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 16, 2017 6:19:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 16, 2017 6:19:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 16, 2017 6:19:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 16, 2017 6:19:06 PM jenkins.util.groovy.GroovyHookScript execute
+INFO: Executing /var/jenkins_home/init.groovy.d/tcp-slave-agent-port.groovy
+Jan 16, 2017 6:19:07 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 38670
+Jan 16, 2017 6:19:07 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jan 16, 2017 6:19:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 16, 2017 6:19:07 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Jan 16, 2017 6:19:15 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jan 16, 2017 6:19:15 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Jan 16, 2017 6:19:15 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+--> setting agent port for jnlp
+Jan 16, 2017 6:19:17 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Jan 16, 2017 6:19:17 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 9,336 ms
